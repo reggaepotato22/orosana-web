@@ -12,7 +12,7 @@ import maasaiImg from "@/assets/maasai-culture.jpg";
 import dragonFruitImg from "@/assets/dragon-fruit.jpg";
 
 const galleryImages = [
-  { src: heroImg, alt: "Sunset over Ngong Hills", category: "Landscape" },
+  // { src: heroImg, alt: "Sunset over Ngong Hills", category: "Landscape" },
   { src: farmhouseImg, alt: "The Farmhouse", category: "Accommodation" },
   { src: cottageImg, alt: "Stone Cottage", category: "Accommodation" },
   { src: campsiteImg, alt: "Safari Campsite", category: "Accommodation" },
@@ -20,7 +20,7 @@ const galleryImages = [
   { src: plantationImg, alt: "Fruit Plantations", category: "Farm" },
   { src: fireplaceImg, alt: "Cozy Fireplace", category: "Interiors" },
   { src: birdwatchingImg, alt: "Bird Watching", category: "Activities" },
-  { src: maasaiImg, alt: "Maasai Culture", category: "Culture" },
+  // { src: maasaiImg, alt: "Maasai Culture", category: "Culture" },
   { src: dragonFruitImg, alt: "Dragon Fruit Harvest", category: "Farm" },
 ];
 

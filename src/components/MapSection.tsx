@@ -22,7 +22,7 @@ const MapSection = () => {
           {/* Map */}
           <div className="lg:col-span-2 rounded-2xl overflow-hidden shadow-soft h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127636.72837686997!2d36.614055!3d-1.363064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0e64b2c85f37%3A0x5b50d0d3b0fd6e9!2sNgong%20Hills!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+              src="https://maps.app.goo.gl/UC6MkABuMgp79ios7"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
@@ -105,7 +105,7 @@ const MapSection = () => {
                     href="tel:+254700000000"
                     className="text-ochre font-medium hover:underline"
                   >
-                    +254 700 000 000
+                    +254 113910610
                   </a>
                 </div>
               </div>

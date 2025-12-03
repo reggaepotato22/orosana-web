@@ -74,7 +74,7 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin size={16} className="text-ochre shrink-0 mt-0.5" />
                 <span className="text-background/70">
-                  Ngong Hills Road, Near Rift Valley
+                  Olooshoibor, Near Rift Valley
                   <br />
                   Kajiado County, Kenya
                 </span>
@@ -85,7 +85,7 @@ const Footer = () => {
                   className="flex items-center gap-3 text-sm text-background/70 hover:text-ochre transition-colors"
                 >
                   <Phone size={16} className="text-ochre" />
-                  +254 700 000 000
+                  +254 113910610
                 </a>
               </li>
               <li>

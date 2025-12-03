@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Welcome to your reggie-prj project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c
+**URL**: https://reggie-prj.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use reggie-prj**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c) and start prompting.
+Simply visit the [reggie-prj Project](https://reggie-prj.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via reggie-prj will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in reggie-prj.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +62,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c) and click on Share -> Publish.
+Simply open [reggie-prj](https://reggie-prj.dev/projects/dbb2266c-01da-478f-aa7b-ab0a3323673c) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to my reggie-prj project?
 
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Read more here: [Setting up a custom domain](https://docs.reggie-prj.dev/features/custom-domain#custom-domain)

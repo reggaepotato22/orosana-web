@@ -11,7 +11,7 @@ const blogPosts = [
     excerpt:
       "Discover the 150+ bird species that call our farm home, including the magnificent Superb Starling that inspired our logo.",
     image: birdwatchingImg,
-    date: "November 28, 2024",
+    date: "2025",
     category: "Wildlife",
     readTime: "5 min read",
   },
@@ -21,7 +21,7 @@ const blogPosts = [
     excerpt:
       "Learn about the rich cultural heritage of the Maasai people and how their traditions shape life around the Rift Valley.",
     image: maasaiImg,
-    date: "November 15, 2024",
+    date: "2025",
     category: "Culture",
     readTime: "7 min read",
   },
@@ -31,7 +31,7 @@ const blogPosts = [
     excerpt:
       "How we cultivated exotic dragon fruit in the Kenyan highlands and what makes our sustainable farming special.",
     image: dragonFruitImg,
-    date: "October 30, 2024",
+    date: "2025",
     category: "Farm Life",
     readTime: "4 min read",
   },

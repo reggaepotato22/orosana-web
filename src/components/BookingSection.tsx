@@ -98,7 +98,7 @@ const BookingSection = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="+254 700 000 000"
+                  placeholder="+254 113910610"
                   className="bg-background"
                 />
               </div>
@@ -255,7 +255,7 @@ const BookingSection = () => {
                 We typically respond to inquiries within 24 hours. For urgent bookings, 
                 please call us directly at{" "}
                 <a href="tel:+254700000000" className="underline">
-                  +254 700 000 000
+                  +254 113910610
                 </a>
               </p>
             </div>
