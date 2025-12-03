@@ -1,4 +1,5 @@
 import { ChevronDown, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-landscape.jpg";
 
@@ -41,10 +42,10 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
             <Button variant="hero" size="xl" asChild>
-              <a href="#booking">Reserve Your Escape</a>
+              <Link to="/booking">Reserve Your Escape</Link>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="#experiences">Explore Experiences</a>
+              <Link to="/experiences">Explore Experiences</Link>
             </Button>
           </div>
 
@@ -55,13 +56,13 @@ const HeroSection = () => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
-        <a
-          href="#accommodations"
+        <Link
+          to="/accommodations"
           className="flex flex-col items-center gap-2 text-background/70 hover:text-background transition-colors"
         >
           <span className="text-xs tracking-widest uppercase">Discover</span>
           <ChevronDown size={24} />
-        </a>
+        </Link>
       </div>
     </section>
   );
