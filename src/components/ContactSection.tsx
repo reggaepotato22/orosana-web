@@ -31,7 +31,7 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-earth-foreground/60">Email Us</p>
                   <p className="font-medium text-earth-foreground group-hover:text-ochre transition-colors">
-                    hello@orosanafarm.com
+                    info@orosanafarm.com
                   </p>
                 </div>
               </a>
