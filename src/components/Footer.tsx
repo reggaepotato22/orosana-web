@@ -1,25 +1,8 @@
 import { Bird, MapPin, Mail, Phone } from "lucide-react";
-import { Link } from "react-router-dom";
 import starlingBird from "@/assets/starling-bird.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  const exploreLinks = [
-    { label: "Accommodations", to: "/accommodations" },
-    { label: "Experiences", to: "/experiences" },
-    { label: "Gallery", to: "/gallery" },
-    { label: "Stories", to: "/stories" },
-    { label: "Book Now", to: "/booking" },
-  ];
-
-  const stayLinks = [
-    { label: "The Farmhouse", to: "/accommodations" },
-    { label: "Stone Cottage", to: "/accommodations" },
-    { label: "Safari Campsites", to: "/accommodations" },
-    { label: "Group Bookings", to: "/booking" },
-    { label: "Special Events", to: "/contact" },
-  ];
 
   return (
     <footer className="bg-foreground text-background py-16">
@@ -27,13 +10,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-3 mb-4">
               <img src={starlingBird} alt="Orosana Logo" className="w-10 h-10 object-contain" />
               <div>
                 <h3 className="font-serif text-xl font-bold">Orosana</h3>
                 <p className="text-xs tracking-widest uppercase text-background/60">Guest Farm</p>
               </div>
-            </Link>
+            </div>
             <p className="text-background/70 text-sm leading-relaxed mb-4">
               An authentic African farm experience where the savanna meets 
               boutique hospitality, near the scenic Ngong Hills.
@@ -48,14 +31,14 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg mb-4">Explore</h4>
             <ul className="space-y-2">
-              {exploreLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    to={link.to}
+              {["Accommodations", "Experiences", "Gallery", "Stories", "Book Now"].map((link) => (
+                <li key={link}>
+                  <a
+                    href={`#${link.toLowerCase().replace(" ", "")}`}
                     className="text-background/70 hover:text-ochre transition-colors text-sm"
                   >
-                    {link.label}
-                  </Link>
+                    {link}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -65,14 +48,20 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg mb-4">Our Stays</h4>
             <ul className="space-y-2">
-              {stayLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    to={link.to}
+              {[
+                "The Farmhouse",
+                "Stone Cottage",
+                "Safari Campsites",
+                "Group Bookings",
+                "Special Events",
+              ].map((stay) => (
+                <li key={stay}>
+                  <a
+                    href="#accommodations"
                     className="text-background/70 hover:text-ochre transition-colors text-sm"
                   >
-                    {link.label}
-                  </Link>
+                    {stay}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -119,15 +108,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/60">
           <p>&copy; {currentYear} Orosana Guest Farm. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link to="/contact" className="hover:text-ochre transition-colors">
+            <a href="#" className="hover:text-ochre transition-colors">
               Privacy Policy
-            </Link>
-            <Link to="/contact" className="hover:text-ochre transition-colors">
+            </a>
+            <a href="#" className="hover:text-ochre transition-colors">
               Terms of Service
-            </Link>
-            <Link to="/contact" className="hover:text-ochre transition-colors">
+            </a>
+            <a href="#" className="hover:text-ochre transition-colors">
               Cancellation Policy
-            </Link>
+            </a>
           </div>
         </div>
       </div>
